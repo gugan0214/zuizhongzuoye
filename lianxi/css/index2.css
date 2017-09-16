@@ -1,0 +1,494 @@
+/*
+* @Author: l
+* @Date:   2017-08-31 09:32:34
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-12 17:22:23
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot');
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #444;
+}
+main{
+	max-width: 1024px;
+	height: 100%;
+	background-color: red;
+	margin: 0 auto;
+}
+.head-wenzi{
+	float: right;
+	line-height: 40px;
+	font-size: 12px;
+	color: #a8a8aa;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: black;
+}
+nav main{
+	text-align: justify;/* 文本两端对齐 */
+}
+nav main:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+}
+nav a{
+	font-size: 14px;
+	line-height: 44px;
+	color: white;
+	display: inline-block;
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	background-color: yellow;
+	position: relative;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/sgouji.3.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.banner-anniu1{
+	width: 64px;
+	height: 64px;
+	background-color: rgba(0, 0, 0, 0);
+	margin-top: -32px;
+	border-radius: 50%;
+	position: absolute;
+	left: 18px;
+	right: 297.797px;
+	top: 270px;
+	bottom: 238px;
+	transition: all 1s ease;
+}
+.banner-anniu1:hover{
+	background-color: rgba(227, 165, 17, 1.0);
+}
+.banner-anniu1 a{
+	color: rgba(0, 0, 0, 0);
+	font-size: 62px;
+	line-height: 64px;
+	transition: all 1s ease;
+}
+.banner-anniu1 a:hover{
+	color: rgba(0, 0, 17, 1.0);
+}
+.banner-anniu2{
+	width: 64px;
+	height: 64px;
+	background-color: rgba(0, 0, 0, 0);
+	margin-top: -32px;
+	border-radius: 50%;
+	position: absolute;
+	right: 18px;
+	top: 270px;
+	bottom: 238px;
+	transition: all 1s ease;
+}
+.banner-anniu2:hover{
+	background-color: rgba(227, 165, 17, 1.0);
+}
+.banner-anniu2 a{
+	color: rgba(0, 0, 0, 0);
+	font-size: 62px;
+	line-height: 64px;
+	text-align: center;
+	transition: all 1s ease;
+}
+.banner-anniu2 a:hover{
+	color: rgba(0, 0, 17, 1.0);
+}
+.banner-wenzi{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 217px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-content: center;
+	
+}
+.banner-wenzi h1{
+	color: white;
+	font-size: 28px;
+	width: 100%;
+}
+#fabu{
+	/* height: 268px; */
+	width: 100%;
+	/* height: 268px; */
+	background-color: pink;
+	
+}
+#fabu:after{
+	content:"";
+	display:block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.fabu-list{
+	width: 25%;
+	height: 268px;
+	
+	float: left;
+	position: relative;
+	border-right: 2px pink solid;
+}
+.fabu-list3{
+	border-right: 0;
+}
+
+
+.fabu-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/bts.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.fabu-list1{
+	
+	position: absolute;
+	left: 34.33px;
+	right: 34.33px;
+	top: 30px;
+}
+.fabu-list1 h1{
+	font-size: 100%;
+	line-height: 24px;
+	text-align: center;
+
+}
+.fabu-list2{
+	
+	position: absolute;
+	left: 34.33px;
+	right: 34.33px;
+	top: 54px;
+	
+}
+.fabu-list2 h1{
+	font-size: 17px;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	height: 441.4px;
+	background-color: pink;
+}
+#weibu{
+	width: 980px;
+	height: 441.4px;
+	background-color: yellow;
+	margin: 0 auto;
+
+}
+.weibu-shang{
+	width: 100%;
+	height: 68px;
+	border-bottom: 1px black solid;
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.weibu-shang h4{
+	font-size: 11px;
+	width: 100%;
+}
+.weibu-zhong{
+	width: 100%;
+	height: 229.2px;
+	margin-top: 40px;
+	background-color: purple;
+}
+.weibu-list{
+	width: 20%;
+	height: 100%;
+	background-color: blue;
+	float: left;
+}
+.weibu-list h4:nth-child(1){
+	font-weight: bolder;
+}
+.weibu-list1 h4:nth-child(4){
+	font-weight: bolder;
+	margin-top: 23px;
+}
+.weibu-list h4{
+	font-size: 11px;
+	margin-bottom: 6px;
+}
+.weibu-xia{
+	width: 100%;
+	height: 22px;
+	background-color: green;
+	border-bottom: 1px black solid;
+	margin-top: 34px;
+}
+.weibu-xia h4{
+	font-size: 11px;
+	line-height: 22px;
+	
+	background-color: green;
+}
+.weibu-xia1{
+	width: 100%;
+	height: 22.2px;
+	background-color: green;
+	margin-top: 3px;
+	position: relative;
+}
+.box{
+	width: 40.525px;
+	height: 16px;
+	margin-top: 3px;
+	background-color: blue;
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+}
+.box h5{
+	font-size: 11px;
+	line-height: 16px;
+	
+}
+.box1{
+	width: 16px;
+	height: 16px;
+	background-color: yellow;
+	float: left
+}
+.box2{
+	width: 24.525px;
+	height: 16px;
+	background-color: pink;
+	float: right;
+}
+.weibu-xia1 h4{
+	font-size: 11px;
+	line-height: 22.2px;
+	
+	background-color: green;
+}
+.weibu-xia2{
+	width: 100%;
+	height: 16px;
+	background-color: green;
+	margin-top: 3px;
+}
+.weibu-xia2 h4{
+	font-size: 11px;
+	line-height: 16px;
+	
+	background-color: green;
+}
+/* 屏幕<1024 */
+@media screen and (max-width: 1024px){
+	main{
+		padding-right: 24px;
+	}
+	nav main{
+		padding-left: 24px;
+	}
+	#banner{
+		height: 460px;
+	}
+	.banner-img{
+		background-image: url('../img/shouji.2.jpg');
+	}
+	.banner-wenzi{
+		height: 211px;
+	}
+	.fabu-list{
+		width: 50%;
+	}
+	#weibu{
+		width: 100%;
+	}
+	footer{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+}
+/* 屏幕>767	 */
+@media screen and (min-width: 767px){
+	.nav-big{
+		display: block;
+	}
+	.nav-small{
+		display: none;
+	}
+	.banner-wenzi h1{
+		font-size: 25px;
+	}
+	#jiewei{
+		display: none;
+	}
+}
+/* 屏幕<767 */
+@media screen and (max-width: 767px){
+	.nav-big{
+		display: none;
+	}
+	.nav-small{
+		display: block;
+	}
+	#banner{
+		height: 380px;
+	}
+	.banner-img{
+		background-image: url('../img/shouji.1.jpg');
+	}
+	.banner-wenzi{
+		height: 201px;
+	}
+	.banner-wenzi h1{
+		font-size: 21px;
+	}
+	.fabu-list{
+		width: 100%;
+	}
+	
+	footer{
+		display: none;
+	}
+	#jiewei{
+		width: 100%;
+		height: 475.4px;
+		background-color: pink;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.jiewei-nei{
+		width: 100%;
+		height: 100%;
+		background-color: yellow;
+	}
+	.jiewei-shang{
+		width: 100%;
+		height: 68px;
+		border-bottom: 1px black solid;
+		background-color: red;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+	.jiewei-shang h4{
+		font-size: 11px;
+		width: 100%;
+	}
+	.jiewei-list{
+		width: 100%;
+		/* margin-top: 69px; */
+	}
+	.jiewei-list1{
+		width: 100%;
+		height: 38.6px;
+		background-color: blue;
+		border-bottom: 1px black solid;
+	}
+	.jiewei-list1 h4{
+		font-size: 12px;
+		line-height: 38.6px;
+		float: left;
+	}
+	.jiewei-list1 a{
+		font-size: 9px;
+		line-height: 38.6px;
+		float: right;
+	}
+	.jiewei-xia{
+		width: 100%;
+		/* height: 22px; */
+		background-color: green;
+		border-bottom: 1px black solid;
+		margin-top: 20px;
+	}
+	.jiewei-xia h4{
+		font-size: 11px;
+		line-height: 22px;
+		
+		background-color: green;
+	}
+	.jiewei-xia1{
+		width: 100%;
+		/* height: 22.2px; */
+		background-color: green;
+		margin-top: 20px;
+		position: relative;
+	}
+	.jiewei-xia1 .box{
+		width: 40.525px;
+		height: 16px;
+		margin-top: 3px;
+		background-color: blue;
+		position: absolute;
+		left: 0;
+		bottom: 21px;
+	}
+	.jiewei-xia1 .box h5{
+		font-size: 11px;
+		line-height: 16px;
+		
+	}
+	.jiewei-xia1 .box1{
+		width: 16px;
+		height: 16px;
+		background-color: yellow;
+		float: left
+	}
+	.jiewei-xia1 .box2{
+		width: 24.525px;
+		height: 16px;
+		background-color: pink;
+		float: right;
+	}
+	.jiewei-xia1 h4{
+		font-size: 11px;
+		line-height: 22.2px;
+		
+		background-color: green;
+	}
+	.jiewei-xia2{
+		width: 100%;
+		/* height: 16px; */
+		background-color: green;
+		margin-top: 3px;
+	}
+	.jiewei-xia2 h4{
+		font-size: 11px;
+		line-height: 16px;
+		
+		background-color: green;
+	}
+}
+

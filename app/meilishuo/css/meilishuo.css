@@ -1,0 +1,280 @@
+/*
+* @Author: l
+* @Date:   2017-09-05 21:53:51
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-15 22:04:05
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_ddndvviqd2ja714i.eot');
+  src: url('http://at.alicdn.com/t/font_401018_ddndvviqd2ja714i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_ddndvviqd2ja714i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_ddndvviqd2ja714i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_ddndvviqd2ja714i.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .45rem;
+	bottom: .45rem;
+	margin: 0 auto;
+	background-color: purple;
+	z-index: 100;
+}
+.top-wenzi1{
+	width: .29rem;
+	height: .45rem;
+	margin-left: .15rem;
+	margin-right: .15rem;
+	background-color: yellow;
+	float: left;
+}
+.top-wenzi1 a{
+	font-size: .29rem;
+	line-height: .45rem;
+	display: block;
+}
+.sousuo{
+	width: 2.65rem;
+	height: .28rem;
+	margin-top: .08rem;
+	background-color: yellow;
+	float: left;
+}
+.fangdajing{
+	width: .15rem;
+	height: .15rem;
+	background-color: pink;
+	margin-top: .07rem;
+	margin-left: .2rem;
+	float: left;
+}
+.fangdajing a{
+	font-size: .15rem;
+	line-height: .15rem;
+	display: block;
+}
+.top-wenzi2{
+	width: .49rem;
+	height: .28rem;
+	margin-top: .075rem;
+	background-color: yellow;
+	float: right;
+}
+.top-wenzi2 a{
+	font-size: .28rem;
+	line-height: .28rem;
+	display: block;
+	text-align: center;
+}
+input{
+	display: block;
+	width: 2.3rem;
+	height: .13rem;
+	
+	padding-right: .075rem;
+	padding-left: .275rem;
+	padding-top: .075rem;
+	margin-top: .08rem;
+	float: right;
+}
+#banner{
+	width: 100%;
+	height: 1.951rem;
+	background-color: pink;
+}
+#list{
+	width: 100%;
+	height: 1.096rem;
+	background-color: yellow;
+	padding: .1rem .05rem;
+}
+#list li{
+	width: 25%;
+	height: 100%;
+	background-color: pink;
+	
+	float: left;
+}
+#list li a{
+	display: block;
+	width: .7rem;
+	height: .7rem;
+	border-radius: 50%;
+	background-color: blue;
+	margin: 0 auto;
+	background-image: url('../img/li.webp');
+	background-size: cover;
+}
+#list li span{
+	font-size: .15rem;
+	display: block;
+	text-align: center;
+
+}
+.miaosha{
+	width: 3.55rem;
+	height: 1.9rem;
+	background-color: red;
+	margin-top: .05rem;
+
+	margin: 0 auto;
+
+}
+.miaosha-shangbu{
+	width: 3.55rem;
+	height: .4rem;
+	background-color: white;
+}
+.maosha-tu{
+	width: 3.55rem;
+	height: 1.5rem;
+	background-color: pink;
+}
+.liuxin{
+	width: 100%;
+	height: 3.2rem;
+	background-color: blue;
+	margin-top: .05rem;
+	position: relative;
+	float: left;
+}
+.liuxin span{
+	font-size: .18rem;
+
+	position: absolute;
+	left: 1.45rem;
+	top: .09rem; 
+	
+}
+.liuxin-box{
+	width: 3.5rem;
+	background-color: yellow;
+	margin-top: .36rem;
+	margin: 0 auto;
+	
+}
+.liuxin-list{
+	width: .855em;
+	height: 1rem;
+	background-color: pink;
+	margin-top: .5rem;
+	margin-right: .026rem;
+	float: left;
+	position: relative;
+}
+.liuxin-list1{
+	margin-top: .1rem;
+}
+.liuxin-list3{
+	margin-right: 0;
+}
+.liuxin-tu{
+	width: .65rem;
+	height: .65rem;
+	background-color: blue;
+	margin: 0 auto;
+	margin-top: .06rem;
+	border-radius: 50%;
+	background-image: url('../img/li.webp');
+	background-size: cover;
+}
+.liuxin-list h1{
+	font-size: .15rem;
+	text-align: center;
+	margin-bottom: 0;
+	
+}
+.danpin{
+	width: 100%;
+	height: 3.68rem;
+	background-color: red;
+	margin-top: .05rem;
+	float: left;
+}
+.danpin-shangbu{
+	width: 100%;
+	height: .4rem;
+	background-color: pink;
+}
+.danpin-shangbu h1{
+	font-size: .15rem;
+	line-height: .4rem;
+	margin-left: .105rem;
+	float: left;
+}
+.danpin-shangbu h2{
+	font-size: .15rem;
+	line-height: .4rem;
+	margin-right: .105rem;
+	float: right;
+}
+.danpin-list{
+	width: 1.72rem;
+	height: 3.28rem;
+	background-color: purple;
+	margin-left: .105rem;
+	float: left;
+}
+.danpin-tu{
+	width: 1.72rem;
+	height: 2.2rem;
+	background-color: yellow;
+}
+footer{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 101;
+}
+.weibu-box{
+	width: 25%;
+	height: .44rem;
+	padding-bottom: .05rem;
+	
+	float: left;
+}
+.weibu-tubiao{
+	width: .19rem;
+	height: .19rem;
+	margin: .064rem .374rem .04rem .374rem;
+	
+}
+.weibu-tubiao i{
+	font-size: .19rem;
+	line-height: .19rem;
+	color: pink;
+	display: block;
+}
+.weibu-wenzi{
+	width: .838rem;
+	height: .12rem;
+	margin: 0 auto;
+	
+}
+.weibu-wenzi h4{
+	font-size: .12rem;
+	text-align: center;
+	line-height: .12rem;
+}

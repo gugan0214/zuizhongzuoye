@@ -1,0 +1,229 @@
+/*
+* @Author: l
+* @Date:   2017-09-13 15:22:56
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-13 22:56:05
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot');
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .45rem;
+	bottom:.0;
+	margin: 0 auto;
+	background-color: purple;
+	z-index: 100;
+}
+.top-wenzi1{
+	width: .47rem;
+	height: 100%;
+	margin-left: .175rem;
+	background-color: yellow;
+	float: left;
+}
+.top-wenzi1 a{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: left;
+	display: block;
+}
+.top-wenzi2{
+	height: 100%;
+	background-color: yellow;
+	margin-right: .175rem;
+	float: right;
+}
+.top-wenzi2 h4{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+header h5{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+#dianzi{
+	width: 100%;
+	height: .442rem;
+	margin-top: .1rem;
+	background-color: blue;
+	border-top: .01rem black dashed ;
+	border-bottom: .01rem black dashed ;
+}
+#dianzi a{
+	font-size: .2rem;
+	line-height: .442rem;
+	display: block;
+	margin-left: .175rem;
+	float: left;
+}
+#dianzi h4{
+	font-size: .16rem;
+	line-height: .442rem;
+	display: block;
+	float: left;
+}
+#dianzi i{
+	font-size: .2rem;
+	line-height: .442rem;
+	display: block;
+	margin-right: .14rem;
+	float: right;
+}
+.youxuan{
+	width: 3.452rem;
+	height: 3.546rem;
+	margin-left: .15rem;
+	margin-top: .1rem;
+	background-color: yellow;
+
+}
+.youxuan1{
+	width: 100%;
+	height: .61rem;
+	background-color: blue;
+	position: relative;
+}
+.youxuan-tu{
+	width: .3rem;
+	height: .3rem;
+	background-color: yellow;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+
+}
+img{
+	display: block;
+}
+.youxuan1 h4{
+	font-size: .16rem;
+	line-height: .61rem;
+	margin-left: .3rem;
+
+}
+.lianxi{
+	width: .73rem;
+	height: .23rem;
+	border: .01rem pink solid;
+	border-radius: .23rem;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.lianxi h3{
+	font-size: .14rem;
+	line-height: .23rem;
+	text-align: center;
+	color: pink;
+}
+.jiage{
+	width: 3.452rem;
+	height: .598rem;
+	background-color: blue;
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+	position: relative;
+}
+.jiage-img{
+	width: .6rem;
+	height: .6rem;
+	background-color: pink;
+	float: left;
+}
+.jiage h6{
+	font-size: .12rem;
+	margin-left: .13rem;
+	float: left;
+}
+.jiage h5{
+	font-size: .12rem;
+	margin-left: .13rem;
+	position: absolute;
+	left: .6rem;
+	top: .2rem;
+}
+.jiage h4{
+	font-size: .12rem;
+	margin-left: .13rem;
+	position: absolute;
+	left: .6rem;
+	top: .4rem;
+}
+.peisong{
+	width: 100%;
+	height: .428rem;
+	background-color: blue;
+}
+.peisong h4{
+	font-size: .14rem;
+	line-height: .428rem;
+	float: left;
+}
+.peisong h5{
+	font-size: .14rem;
+	line-height: .428rem;
+	float: right;
+}
+.liuyan{
+	width: 100%;
+	height: .392rem;
+	background-color: blue;
+	margin-top: .15rem;
+}
+.liuyan h4{
+	font-size: .14rem;
+	line-height: .392rem;
+	margin-left: .15rem;
+}
+.tuikuan{
+	width: 100%;
+	height: .40638rem;
+	background-color: blue;
+
+}
+.tijiao{
+	width: 100%;
+	height: .568rem;
+	background-color: blue;
+}
+.tijiao h4{
+	font-size: .14rem;
+	line-height: .568rem;
+	margin-left: 1.3rem;
+}

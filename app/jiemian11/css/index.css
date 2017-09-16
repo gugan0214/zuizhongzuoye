@@ -1,0 +1,107 @@
+/*
+* @Author: l
+* @Date:   2017-09-14 16:58:27
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-14 17:35:27
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot');
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	border-bottom: .01rem solid black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+	float: left;
+}
+.top-wenzi1{
+	width: .47rem;
+	height: 100%;
+	margin-left: .175rem;
+	background-color: yellow;
+	float: left;
+}
+.top-wenzi1 a{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: left;
+	display: block;
+}
+header h5{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .45rem;
+	bottom:.0;
+	margin: 0 auto;
+	background-color: purple;
+	z-index: 100;
+}
+.neirong{
+	width: 100%;
+	height: 1.5rem;
+	background-color: blue;
+	margin-top: .1rem;
+}
+.neirong-list{
+	width: 100%;
+	height: .505rem;
+	background-color: pink;
+	border-bottom: .01rem solid black;
+	padding-left: .15rem;
+	padding-right: .15rem;
+}
+.neirong-list1{
+	border-bottom:0;
+}
+.neirong-list h4{
+	font-size: .13rem;
+	line-height: .505rem;
+	float: left;
+}
+.neirong-list a{
+	font-size: .25rem;
+	line-height: .505rem;
+	float: right;
+}
+.tuichu{
+	width: 100%;
+	height: .505rem;
+	background-color: pink;
+	margin-top: .1rem;
+}
+.tuichu a{
+	font-size: .16rem;
+	line-height: .505rem;
+	text-align: center;
+	display: block;
+	text-decoration: underline;
+}

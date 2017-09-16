@@ -1,0 +1,264 @@
+/*
+* @Author: l
+* @Date:   2017-09-13 23:04:09
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-16 09:14:12
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot');
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .45rem;
+	bottom:.0;
+	margin: 0 auto;
+	background-color: purple;
+	z-index: 100;
+}
+.top-wenzi1{
+	width: .47rem;
+	height: 100%;
+	margin-left: .175rem;
+	background-color: yellow;
+	float: left;
+}
+.top-wenzi1 a{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: left;
+	display: block;
+}
+.top-wenzi2{
+	height: 100%;
+	background-color: yellow;
+	margin-right: .175rem;
+	float: right;
+}
+.top-wenzi2 div{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+header h5{
+	/* position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto; */
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 101;
+}
+.weibu-box{
+	width: 25%;
+	height: .44rem;
+	padding-bottom: .05rem;
+	
+	float: left;
+}
+.weibu-tubiao{
+	width: .19rem;
+	height: .19rem;
+	margin: .064rem .374rem .04rem .374rem;
+	
+}
+.weibu-tubiao a{
+	font-size: .19rem;
+	line-height: .19rem;
+	color: pink;
+	display: block;
+}
+.weibu-wenzi{
+	width: .838rem;
+	height: .12rem;
+	margin: 0 auto;
+	
+}
+.weibu-wenzi h4{
+	font-size: .12rem;
+	text-align: center;
+	line-height: .12rem;
+}
+.denglu{
+	width: 100%;
+	height: 1.827rem;
+	background-color: orange;
+	position: relative;
+}
+.denglu-tu{
+	width: .53rem;
+	height: .53rem;
+	background-color: pink;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .176rem;
+	margin: auto;
+	border-radius: 50%;
+
+}
+.denglu-tu img{
+	border-radius: 50%;
+	display: block;
+}
+.denglu h4{
+	font-size: .2rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .75rem;
+}
+.denglu-list{
+	width: 100%;
+	height: .68rem;
+	background-color: blue;
+	border-top: .01rem black solid;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.denglu-list1{
+	width: 25%;
+	height: 100%;
+	background-color: pink;
+	position: relative;
+	float: left;
+}
+.denglu-list2{
+	border-right: .01rem black solid;
+}
+.denglu-list1 h4{
+	font-size: .18rem;
+	
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .14rem;
+}
+.denglu-list1 h5{
+	font-size: .14rem;
+	
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: .14rem;
+}
+.daren{
+	width: 100%;
+	height: .53rem;
+	background-color: blue;
+	margin-top: .09rem;
+	position: relative;
+}
+.img-daren{
+	width: .3rem;
+	height: .3rem;
+	background-color: white;
+	
+	position: absolute;
+	left: .146rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.daren img{
+	display: block;
+}
+.daren h4{
+	font-size: .16rem;
+	line-height: .53rem;
+	position: absolute;
+	left: .48rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.daren h5{
+	font-size: .12rem;
+	line-height: .53rem;
+	position: absolute;
+	right: .266rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.daren a{
+	font-size: .12rem;
+	line-height: .53rem;
+	position: absolute;
+	right: .146rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+}
+.quanbu{
+	width: 100%;
+	height: .638rem;
+	background-color: blue;
+	margin-top: .09rem;
+}
+.quanbu-list{
+	width: 20%;
+	height: 100%;
+	background-color: pink;
+	float: left;
+	position: relative;
+}
+.quanbu1{
+	width: 100%;
+	height: .38rem;
+	background-color: blue;
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.quanbu1 h4{
+	font-size: .14rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}

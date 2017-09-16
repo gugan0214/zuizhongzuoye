@@ -1,0 +1,109 @@
+/*
+* @Author: l
+* @Date:   2017-09-14 09:56:18
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-14 16:31:22
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401018 */
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot');
+  src: url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401018_vuhpt2v414dq85mi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .45rem;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+	float: left;
+}
+main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .45rem;
+	bottom:.0;
+	margin: 0 auto;
+	background-color: purple;
+	z-index: 100;
+}
+.top-wenzi1{
+	width: .47rem;
+	height: 100%;
+	margin-left: .175rem;
+	background-color: yellow;
+	float: left;
+}
+.top-wenzi1 a{
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: left;
+	display: block;
+}
+.top-wenzi2{
+	height: 100%;
+	background-color: yellow;
+	margin-right: .175rem;
+	float: right;
+}
+.top-wenzi2 a{
+	font-size: .3rem;
+	line-height: .45rem;
+	text-align: center;
+	display: block;
+}
+header h5{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-size: .2rem;
+	line-height: .45rem;
+	text-align: center;
+}
+.neirong-box{
+	width: 100%;
+	height: 2.94rem;
+	background-color: pink;
+	border-top: .01rem black solid;
+}
+.neirong{
+	width: 1.78rem;
+	height: 2.73487rem;
+	margin-left: .06rem;
+	margin-top: .14648rem;
+	background-color: blue;
+	position: relative;
+}
+.img-neirong{
+	width: 100%;
+	height: 2.31rem;
+	background-color: red;
+}
+.neirong h4{
+	font-size: .14rem;
+	position: absolute;
+	left: .089rem;
+	bottom: .2rem;
+}
+.neirong h5{
+	font-size: .14rem;
+	position: absolute;
+	left: .6rem;
+	bottom: 0;
+}

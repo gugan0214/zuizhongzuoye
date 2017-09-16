@@ -1,0 +1,438 @@
+/*
+* @Author: lenovo
+* @Date:   2017-09-12 18:27:43
+* @Last Modified by:   l
+* @Last Modified time: 2017-09-16 08:50:57
+*/
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 413747 */
+  src: url('http://at.alicdn.com/t/font_413747_gy65plhjv4ewxw29.eot');
+  src: url('http://at.alicdn.com/t/font_413747_gy65plhjv4ewxw29.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_413747_gy65plhjv4ewxw29.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_413747_gy65plhjv4ewxw29.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_413747_gy65plhjv4ewxw29.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 第一屏开始 */
+.head{
+	background-image: url('../img/1.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 100vh;
+}
+
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8)
+
+}
+.head-wz{
+	width: 100%;
+	height: auto;
+	/* background-color: pink; */
+	position: relative;
+	top: 200px;
+	font-size: 60px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.head-tubiao{
+	width: 100%;
+	height: auto;
+	/* background-color: red; */
+	position: relative;
+	top: 210px;
+	text-align: center;
+}
+.head-tubiao a{
+	font-size: 40px;
+	color: #fff;
+	margin-right: 20px;
+	text-align: center;
+}
+.head-tubiao a i{
+	font-size: 30px;
+}
+/* 第一屏结束 */
+
+
+/* 第二屏开始 */
+.jianjie{
+	background-color: #fff;
+	width: 100%;
+	/* height: 720px; */
+	padding: 90px 0;
+}
+.jianjie1{
+	background-color: #fff;
+	height: 100%;
+}
+.tupian{
+	background-color: #000;
+	height: 100%;
+	float: left;
+}
+.jieshao{
+	background-color: #fff;
+	height: 100%;
+	float: right;
+	padding: 0 15px;
+}
+.jieshao h1{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #000;
+	margin-bottom: 40px;
+}
+.jieshao h2{
+	font-size: 18px;
+	font-weight: lighter;
+	color: #000;
+	/* margin-bottom: 40px; */
+}
+/* 第二屏结束 */
+
+/* 第三屏开始 */
+.list{
+	background-color: #f6f6f6;
+	/* height: 400px; */
+	padding: 90px 0;
+}
+.list1{
+	background-color: #f6f6f6;
+	height: 100%;
+	
+}
+.list2{
+	background-color: #f6f6f6;
+	height: 100%;
+	text-align: center;
+	padding: 10px 15px 0 15px;
+}
+.list2 i{
+	font-size: 30px;
+	color: #000;
+
+}
+.list2 a{
+	font-size: 26px;
+	color: #000;
+	font-weight: bolder;
+	margin: 15px 0;
+}
+.list2 h2{
+	font-size: 20px;
+	color: #999;
+	font-weight: 400;
+	
+}
+/* 第三屏结束 */
+
+/* 第四屏开始 */
+.zuopin{
+	background-color: #fff;
+	/* height: 1300px; */
+	padding: 90px 0;
+}
+.zuopin1{
+	background-color: #fff;
+	height: 100%;
+}
+.zuopin1 a{
+	font-size: 24px;
+	font-weight: bolder;
+    margin-bottom: 15px; 
+    text-align: center;
+    display: block;
+}
+.zuopin1 p{
+	font-size: 18px;
+	font-weight: lighter;
+    color: #888;
+    line-height: 27px;
+    text-align: center;
+}
+.zuopin1 ul{
+	text-align: center;
+	margin:30px 0;
+}
+.zuopin1 ul li{
+	font-size: 18px;
+	font-weight: lighter;
+    color: #000;
+    line-height: 15px;
+    display: inline-block;
+	margin-right: 10px;
+}
+.zuopin-img{
+	width: 100%;
+	/* height: 845px; */
+	background-color: #fff;
+
+}
+.zuopin-img-1{
+	/* width: 100%; */
+	height: 50%;
+	background-color: #fff;
+	padding: 10px 15px 30px 15px;
+
+}
+
+
+
+
+/* 第四屏结束 */
+
+/* 第五屏开始 */
+.zhanshi{
+	background-color: #fff;
+	/* height: 400px; */
+	padding: 90px 0;
+}
+.zhanshi1{
+	background-color: #fff;
+	height: 100%;
+
+}
+.zhanshi1 h1{
+	font-size: 24px;
+	font-weight: bolder;
+    margin-bottom: 15px; 
+    text-align: center;
+}
+.zhanshi1 p{
+	font-size: 18px;
+	font-weight: lighter;
+    color: #888;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.zhanshi3{
+	background-color: #fff;
+}
+
+
+
+
+
+
+/* 第五屏结束 */
+/* 图片展示开始 */
+.show{
+	background-color: #fff;
+	/* height: 900px; */
+	padding: 90px 0;
+}
+.show1{
+	background-color: #fff;
+	height: 100%;
+
+}
+.show1 h1{
+	font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-align: center;
+    color: #000;
+
+}
+.show1 p{
+	font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #888;
+}
+.show1-under{
+	width: 100%;
+	/* height: 500px; */
+	background-color: #fff;
+	margin-bottom: 35px;
+}
+.show1-under-1{
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	padding: 0 15px;
+}
+.show1-under-1-img{
+	width: 100%;
+	height: 60%;
+	background-color: red;
+
+}
+.show1-under-1 h1{
+	font-size: 20px;
+	color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.show1-under-1 p{
+	font-size: 16px;
+	color: #888;
+    margin-bottom: 10px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+.show1-under-1 h2{
+	font-size: 13px;
+    color: #616161;
+    font-weight: 600;
+    margin-bottom: 10px;
+	/* text-align: center; */
+}
+/* .button{
+	margin-top: 30px;
+    width: 11%;
+    height: 5%;
+    
+    padding: 12px 40px;
+    border: 2px #000 solid;
+    border-radius: 50px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    line-height: 29.5px;
+
+} */
+
+/* 图片展示结束 */
+/* 联系开始 */
+.contact{
+	/* height: 650px; */
+	background-color: #fff;
+	padding: 90px 0;
+}
+.contact1{
+	height: 100%;
+	background-color: #fff;
+
+}
+.contact1 h1{
+	font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-align: center;
+    color: #000;
+
+}
+.contact1 p{
+	font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #888;
+}
+.contact2{
+	height: 340px;
+	background-color: #fff;
+}
+.contact2-left{
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.1) inset;
+}
+.contact2-left-1{
+	margin-bottom: 15px;
+}
+.contact2-left-1 i{
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.contact2-left-1 span{
+	font-size: 18px;
+	color: #000;
+	font-weight: bolder;
+	display: block;
+	margin-top: 10px;
+}
+.contact2-left-1 h2{
+	font-size: 18px;
+	color: #888;
+	font-weight: 600;	
+}
+.contact2-right{
+	height: 100%;
+	background-color: #fff;
+	float: right;
+	padding: 20px;
+}
+input{
+	width: 100%;
+	height: 55px;
+	margin-bottom: 30px;
+	border: none;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+input::-webkit-input-placeholder{
+	font-size: 18px;
+	font-weight: lighter;
+}
+.send1{
+	width: 85%;
+	height: 140px;
+	float: left;
+
+}
+.send-button{
+	float: right;
+	width: 15%;
+	height: 140px;
+	background-color: #000;
+	text-align: center;
+	line-height: 140px;
+}
+.send-button i{
+	font-size: 50px;
+	color: #fff;
+
+}
+
+/* 联系结束 */
+
+/* 底部开始 */
+.footer{
+	height: 240px;
+	background-color: #111;
+	padding: 70px 0;
+	text-align: center;
+
+}
+.footer  i{
+	font-size: 24px;
+	margin-right: 20px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.footer  h1{
+	font-size: 14px;
+	color: #888;
+	margin-top: 20px;
+}
+
+  
+
+
+	 
+
